@@ -1,0 +1,23 @@
+.home {
+    background-color: #d1e3ff;
+}
+
+.hero-texts {
+    flex: 1;
+}
+
+.hero-btn {
+    background-color: #ff8a1d;
+    border-radius: 5px;
+}
+
+.hero-btn:hover {
+    background-color: transparent;
+    color: #ff8a1d;
+    border: 1px solid #ff8a1d;
+}
+
+.hero-image{
+    width: 1em;
+    flex: 1;
+}

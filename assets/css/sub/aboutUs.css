@@ -1,0 +1,40 @@
+.aboutus {
+    background-color: #fff;
+}
+
+.aboutus-texts {
+    flex: 1;
+}
+
+.readmorebtn {
+    background-color: #0355cc;
+    border-radius: 2px;
+    color: white;
+}
+
+.readmorebtn:hover {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #0355cc;
+}
+
+.aboutusImage {
+    width: 1em;
+    flex: 1;
+}
+
+.aboutus-con {
+    background-color: #d1e3ff;
+}
+
+.readmorebtn1 {
+    background-color: #ff8a1d;
+    border-radius: 2px;
+    color: white;
+}
+
+.readmorebtn1:hover {
+    background-color: transparent;
+    color: #ff8a1d;
+    border: 1px solid #ff8a1d;
+}

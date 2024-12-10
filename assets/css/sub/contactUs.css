@@ -1,0 +1,45 @@
+.contactUs {
+    background-color: #fff;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form label {
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    height: 3em;
+}
+
+.form textarea {
+    resize: none;
+    width: 100%;
+}
+
+.submitbtn {
+    background-color: #0355cc;
+    border-radius: 2px;
+    color: white;
+}
+
+.submitbtn:hover {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #0355cc;
+}
+
+.map{
+    /* background-color: #007bff; */
+    height: 25em;
+    flex: 1;
+    z-index: 1;
+}

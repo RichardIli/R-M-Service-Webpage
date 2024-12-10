@@ -1,0 +1,51 @@
+.ourService {
+    background-color: #fff;
+    justify-content: center;
+    gap: 0;
+}
+
+.ourService-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.cardList {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+.card {
+    height: fit-content;
+    padding: 1em;
+    background-color: #fff;
+    transition: color .5s ease, background-color .5s ease;
+    flex: 1;
+}
+
+.cardIcon {
+    font-size: 5em;
+    transition: color .5s ease;
+}
+
+.card:hover {
+    background-color: #ff8a1d;
+    color: #fff;
+}
+
+.ourService-btn {
+    background-color: #0355cc;
+    border-radius: 2px;
+    color: white;
+}
+
+.ourService-btn:hover {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #0355cc;
+}

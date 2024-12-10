@@ -1,0 +1,241 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R&M Service</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/sub/home.css">
+    <link rel="stylesheet" href="assets/css/sub/feature.css">
+    <link rel="stylesheet" href="assets/css/sub/aboutUs.css">
+    <link rel="stylesheet" href="assets/css/sub/ourService.css">
+    <link rel="stylesheet" href="assets/css/sub/client.css">
+    <link rel="stylesheet" href="assets/css/sub/contactUs.css">
+    <link rel="stylesheet" href="assets/css/sub/getInTouch.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="assets/svgs/phoneLogo.svg" alt="phoneLogo" class="icon-header"> Call : +0123456789
+        </div>
+        <div>
+            <img src="assets/svgs/emailLogo.svg" alt="emailLogo" class="icon-header"> Email : sample@gmail.com
+        </div>
+    </header>
+    <nav class="navBar" id="navBar">
+        <h1 class="logo">R&M Service</h1>
+        <ul>
+            <li><a href="#home-id">Home</a></li>
+            <li><a href="#about-id">About</a></li>
+            <li><a href="#service-id">Service</a></li>
+            <li><a href="#contact-id">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="home wrap" id="home-id">
+            <div class="hero-texts">
+                <h2>Repair and Maintenace Service</h2>
+                <p>Whether it's fixing a broken appliance, maintaining your HVAC system, or offering emergency repairs,
+                    we provide reliable, fast, and professional service to keep your home or business running smoothly.
+                </p>
+                <button class="hero-btn basebtnstyle">CONTACT US</button>
+            </div>
+            <img src="assets/svgs/undraw_qa_engineers_dg-5-p.svg" alt="Engineer Image" class="hero-image">
+            </div>
+        </section>
+
+        <section class="feature wrap">
+            <div class="feature-container">
+                <div class="featureCard">
+                    <i class="fa fa fa-hammer"></i>
+                    <h2>REPAIR</h2>
+                </div>
+                <div class="featureCard">
+                    <i class="fa fa fa-paint-roller"></i>
+                    <h2>IMPROVE</h2>
+                </div>
+                <div class="featureCard">
+                    <i class="fa fa fa-toolbox"></i>
+                    <h2>MAINTAIN</h2>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="aboutus wrap" id="about-id">
+            <div class="aboutus-texts">
+                <h2>ABOUT US</h2>
+                <p>Welcome to R&M Service, your trusted partner in repair and maintenance services. With years of
+                    experience
+                    across various industries, we specialize in providing high-quality solutions for a wide range of
+                    repair
+                    and maintenance needs. From home appliances and electrical systems to plumbing, HVAC, and general
+                    property upkeep, our team has the expertise and knowledge to handle it all.</p>
+                <button class="readmorebtn basebtnstyle">READ MORE</button>
+            </div>
+            <img src="assets/svgs/undraw_coffee_break_h3uu.svg" alt="Workers Image" class="aboutusImage">
+        </section>
+
+        <section class="aboutUs-con wrap">
+            <img src="assets/svgs/undraw_best_place_re_lne9.svg" alt="" class="aboutusImage">
+            <div class="aboutus-texts">
+                <h2> We Provide Professional Home Services. </h2>
+                <p>Experience peace of mind knowing your home is in expert hands. Let us handle the repairs while you
+                    enjoy a hassle-free home.</p>
+                <button class="readmorebtn1 basebtnstyle">READ MORE</button>
+            </div>
+        </section>
+
+        <section class="ourService wrap" id="service-id">
+            <div class="ourService-container">
+                <h2>OUR SERVICE</h2>
+                <div class="cardList">
+                    <div class="card">
+                        <i class="fa-solid fa-screwdriver-wrench cardIcon"></i>
+                        <h3>Maintenance</h3>
+                        <p>Our maintenance services are designed to extend the life of your equipment and improve
+                            efficiency.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-plug cardIcon"></i>
+                        <h3>Electrical</h3>
+                        <p>Ensure the longevity and reliability of your electrical systems with our comprehensive
+                            maintenance services.</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-faucet-drip cardIcon"></i>
+                        <h3>Plumbing</h3>
+                        <p>Our plumbing services are designed to save you time and money by preventing major problems
+                            before they happen.</p>
+                    </div>
+                </div>
+                <button class="basebtnstyle ourService-btn">VIEW MORE</button>
+            </div>
+        </section>
+
+        <section class="client wrap" id="client-id">
+            <div class="client-container">
+                <h1>WHAT OUR CLIENTS SAY</h1>
+                <!-- learn how to use owl-carousel -->
+                <div class="client-row">
+                    <div class="clientCard">
+                        <div class="c">
+                            <img src="https://images.pexels.com/photos/29626562/pexels-photo-29626562/free-photo-of-stylish-woman-posing-in-baku-cityscape.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="client Image" class="clientImage">
+                            <ul>
+                                <li>Eleanor Harris</li>
+                                <li class="starsRow">
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>I had a great experience with R&M Service. The team was professional, efficient, and quickly
+                            fixed the issue. They provided excellent service and left everything in perfect condition.
+                            Highly recommend for anyone needing reliable repair and maintenance!</p>
+                    </div>
+                    <div class="clientCard">
+                        <div class="c">
+                            <img src="https://images.pexels.com/photos/29559780/pexels-photo-29559780/free-photo-of-contemplative-black-and-white-outdoor-portrait.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                                alt="client Image" class="clientImage">
+                            <ul>
+                                <li>James Mitchell</li>
+                                <li class="starsRow">
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                    <i class="fa-solid fa-star stars"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <p>I recently hired R&M Service for a repair job, and I’m extremely satisfied with the
+                            results. The technician was punctual, knowledgeable, and completed the work efficiently.
+                            The problem was fixed quickly, and everything works perfectly now. I highly recommend
+                            their reliable and top-quality service!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contactUs wrap" id="contact-id">
+            <div class="form" onsubmit="messageSent(); return false;">
+                <h1>CONTACT US</h1>
+                <form action="backend.php" method="POST">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" rows="5" required></textarea><br><br>
+
+                    <input type="submit" value="submit" class="basebtnstyle submitbtn">
+                </form>
+            </div>
+            <div class="map" id="map"></div>
+
+        </section>
+
+        <section class="getInTouch wrap">
+            <h1>GET IN TOUCH</h1>
+            <div class="modes-of-contact">
+                <div class="mode-of-contact-card">
+                    <div class="circle">
+                        <i class="fa fa-map-marker-alt mode-of-contact-icon"></i>
+                    </div>
+                    <p>R&M Service Bldg., Paris, France</p>
+                </div>
+                <hr>
+                <div class="mode-of-contact-card">
+                    <div class="circle">
+                        <i class="fa fa-phone mode-of-contact-icon"></i>
+                    </div>
+                    <p>+123456879</p>
+                </div>
+                <hr>
+                <div class="mode-of-contact-card">
+                    <div class="circle">
+                        <i class="fa fa-envelope mode-of-contact-icon"></i>
+                    </div>
+                    <p>R&M Service Bldg., Paris, France</p>
+                </div>
+            </div>
+            <div class="social-media-btns-label">
+                <h1>FOLLOW US</h1>
+                <div class="social-media-btns">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a></i>
+                    <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></a></i>
+                    <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></i>
+                    <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></a></i>
+                </div>
+            </div>
+
+        </section>
+        <script src="assets/js/custom.js"></script>
+    </main>
+    <footer>
+        <div class="wrap footer-container">
+            © 2024 Develop By Ili, Richard
+        </div>
+    </footer>
+
+    <!-- make a script where the navbar will change color when its sticky -->
+</body>
+
+</html>

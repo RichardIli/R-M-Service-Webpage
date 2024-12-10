@@ -1,0 +1,47 @@
+.client {
+    background-color: #fff;
+    justify-content: center;
+}
+
+.client-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.client-row {
+    padding: 8em 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+}
+
+
+.clientCard {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientImage {
+    height: 5em;
+    width: 5em;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+    height: 1em;
+    flex: 1;
+}
+
+.c ul {
+    list-style: none;
+}
+
+.c ul li i {
+    color: #fbaf5d;
+}

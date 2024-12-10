@@ -1,0 +1,41 @@
+.feature {
+    background-color: fff;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    display: block;
+    flex-direction: unset;
+    align-items: normal;
+}
+
+.feature-container {
+    margin: 0;
+    padding: 0 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    gap: 2em;
+}
+
+.featureCard {
+    padding: 2em;
+    width: fit-content;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    gap: 2em;
+    flex: 1;
+    transition: background-color .5s ease, color .5s ease;
+}
+
+.featureCard:hover {
+    background-color: #ff8a1d;
+    color: #fff;
+}
+
+.featureCard i {
+    font-size: 60px;
+}
