@@ -38,8 +38,9 @@ input[type="tel"] {
 }
 
 .map{
-    /* background-color: #007bff; */
     height: 25em;
     flex: 1;
     z-index: 1;
 }
+
+/* here is last */

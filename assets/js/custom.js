@@ -1,3 +1,19 @@
+// Mobile Navbar
+function toggleMenu() {
+    // referencing using id
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    const style = window.getComputedStyle(mobileMenu);
+
+    const displayStyle = style.display;
+
+    if (displayStyle == 'none') {
+        mobileMenu.classList.add('open');
+    } else {
+        mobileMenu.classList.remove('open');
+    }
+}
+
 // Map JS
 // Create a map centered at coordinates (51.505, -0.09) with a zoom level of 13
 var map = L.map('map').setView([48.8584, 2.2945], 13);

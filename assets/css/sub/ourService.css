@@ -49,3 +49,9 @@
     color: #007bff;
     border: 1px solid #0355cc;
 }
+
+@media (max-width: 768px){
+    .cardList{
+        flex-direction: column;
+    }
+}

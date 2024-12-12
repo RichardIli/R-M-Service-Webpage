@@ -46,3 +46,9 @@
 .c ul li i {
     color: #fbaf5d;
 }
+
+@media (max-width: 768px){
+    .client-row{
+        flex-direction: column;
+    }
+}

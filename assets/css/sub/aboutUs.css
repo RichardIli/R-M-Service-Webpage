@@ -38,3 +38,12 @@
     color: #ff8a1d;
     border: 1px solid #ff8a1d;
 }
+
+@media (max-width: 768px) {
+    .aboutusImage{
+        width: 70vw;
+    }
+    .aboutUs-con img {
+        display: none;
+    }
+}

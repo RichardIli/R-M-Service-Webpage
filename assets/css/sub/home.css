@@ -17,7 +17,13 @@
     border: 1px solid #ff8a1d;
 }
 
-.hero-image{
+.hero-image {
     width: 1em;
     flex: 1;
+}
+
+@media (max-width: 768px){
+    .hero-image{
+        width: 70vw;
+    }
 }
