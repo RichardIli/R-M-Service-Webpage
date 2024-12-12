@@ -2,6 +2,7 @@
     background-color: #0a0f43;
     flex-direction: column;
     color: #fff;
+    text-align: center;
 }
 
 .modes-of-contact {
@@ -43,7 +44,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1{
+
+    h1 {
         padding: .25em;
         margin: 0;
     }
@@ -58,6 +60,22 @@
     font-size: large;
 }
 
+.social-media-btns a i{
+    transition: color .5s ease;
+}
+
+.social-media-btns a:hover {
+    i {
+        color: #ff8a1d;
+    }
+}
+
 .social-media-btns i {
     color: #fff;
+}
+
+@media (max-width: 768px) {
+    .modes-of-contact {
+        flex-direction: column;
+    }
 }

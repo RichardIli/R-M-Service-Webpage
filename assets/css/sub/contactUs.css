@@ -4,6 +4,8 @@
 }
 
 .form {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -37,10 +39,28 @@ input[type="tel"] {
     border: 1px solid #0355cc;
 }
 
-.map{
+.map {
     height: 25em;
     flex: 1;
     z-index: 1;
 }
 
-/* here is last */
+@media (max-width: 768px) {
+    .contactUs {
+        /* align-items: start; */
+        text-align: start;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 90vw;
+        height: 3em;
+    }
+
+    .map {
+        flex: none;
+        display: flex;
+        width: 90vw;
+    }
+}
